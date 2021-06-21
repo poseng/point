@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/TestMovablePoint.dir/src/TestMovablePoint.cpp.o CMakeFiles/TestMovablePoint.dir/src/MovablePoint.cpp.o CMakeFiles/TestMovablePoint.dir/src/Point.cpp.o -o TestMovablePoint 

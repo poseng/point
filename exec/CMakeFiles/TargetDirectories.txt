@@ -1,6 +1,0 @@
-/home/ps/CLionProjects/Point/exec/CMakeFiles/rebuild_cache.dir
-/home/ps/CLionProjects/Point/exec/CMakeFiles/edit_cache.dir
-/home/ps/CLionProjects/Point/exec/CMakeFiles/TestDynamicAllocation.dir
-/home/ps/CLionProjects/Point/exec/CMakeFiles/Point.dir
-/home/ps/CLionProjects/Point/exec/CMakeFiles/TestMovablePoint.dir
-/home/ps/CLionProjects/Point/exec/CMakeFiles/TestSubstitution.dir
