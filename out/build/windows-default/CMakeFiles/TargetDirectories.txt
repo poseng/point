@@ -1,0 +1,6 @@
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/Point.dir
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/TestDynamicAllocation.dir
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/rebuild_cache.dir
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/TestMovablePoint.dir
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/edit_cache.dir
+C:/Users/posen/source/repos/poseng/point/out/build/windows-default/CMakeFiles/TestSubstitution.dir
