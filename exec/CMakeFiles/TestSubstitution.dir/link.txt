@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/TestSubstitution.dir/src/TestSubstitution.cpp.o CMakeFiles/TestSubstitution.dir/src/MovablePoint.cpp.o CMakeFiles/TestSubstitution.dir/src/Point.cpp.o -o TestSubstitution 

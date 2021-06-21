@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/TestDynamicAllocation.dir/src/TestDynamicAllcoation.cpp.o CMakeFiles/TestDynamicAllocation.dir/src/Point.cpp.o -o TestDynamicAllocation 
