@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Point"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDynamicAllocation">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestDynamicAllocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestDynamicAllocation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDynamicAllocation/fast">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestDynamicAllocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestDynamicAllocation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Point">
+				<Option output="/home/ps/CLionProjects/Point/exec/Point" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 Point"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Point/fast">
+				<Option output="/home/ps/CLionProjects/Point/exec/Point" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 Point/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestMovablePoint">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestMovablePoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestMovablePoint"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestMovablePoint/fast">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestMovablePoint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestMovablePoint/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestSubstitution">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestSubstitution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestSubstitution"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestSubstitution/fast">
+				<Option output="/home/ps/CLionProjects/Point/exec/TestSubstitution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ps/CLionProjects/Point/exec"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 TestSubstitution/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ps/CLionProjects/Point/exec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ps/CLionProjects/Point/src/MovablePoint.cpp">
+			<Option target="TestMovablePoint"/>
+			<Option target="TestSubstitution"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/MovablePoint.h">
+			<Option target="TestMovablePoint"/>
+			<Option target="TestSubstitution"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/Point.cpp">
+			<Option target="TestDynamicAllocation"/>
+			<Option target="Point"/>
+			<Option target="TestMovablePoint"/>
+			<Option target="TestSubstitution"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/Point.h">
+			<Option target="TestDynamicAllocation"/>
+			<Option target="Point"/>
+			<Option target="TestMovablePoint"/>
+			<Option target="TestSubstitution"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/TestDynamicAllcoation.cpp">
+			<Option target="TestDynamicAllocation"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/TestMovablePoint.cpp">
+			<Option target="TestMovablePoint"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/TestSubstitution.cpp">
+			<Option target="TestSubstitution"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/src/main.cpp">
+			<Option target="Point"/>
+		</Unit>
+		<Unit filename="/home/ps/CLionProjects/Point/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
