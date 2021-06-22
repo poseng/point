@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.16)
 project(Point)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -17,3 +17,9 @@ add_executable(TestSubstitution
         src/MovablePoint.h
         src/Point.h
         src/Point.cpp)
+add_executable(TestNewSubstitution
+        src/TestNew.cpp
+        src/MovablePoint.cpp
+        src/MovablePoint.h
+        src/Point.cpp
+        src/Point.h)
