@@ -17,9 +17,3 @@ add_executable(TestSubstitution
         src/MovablePoint.h
         src/Point.h
         src/Point.cpp)
-add_executable(TestNewSubstitution
-        src/TestNew.cpp
-        src/MovablePoint.cpp
-        src/MovablePoint.h
-        src/Point.cpp
-        src/Point.h)
