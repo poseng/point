@@ -3,8 +3,13 @@ project(Point)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Point src/main.cpp src/Point.cpp src/Point.h)
-add_executable(TestDynamicAllocation src/TestDynamicAllcoation.cpp src/Point.cpp src/Point.h)
+add_executable(Point src/main.cpp
+        src/Point.cpp 
+        src/Point.h)
+add_executable(TestDynamicAllocation 
+        src/TestDynamicAllcoation.cpp 
+        src/Point.cpp 
+        src/Point.h)
 add_executable(TestMovablePoint
         src/TestMovablePoint.cpp
         src/MovablePoint.cpp
