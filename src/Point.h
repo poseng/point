@@ -23,6 +23,8 @@ public:
  * on the type of the object pointed-to.
  * */
     void print() const;
+
+//    virtual double getArea() = 0;  // abstract function or pure virtual function, to be implemented by a subclass.
 };
 
 
