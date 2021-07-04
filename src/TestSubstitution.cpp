@@ -10,7 +10,8 @@
 using namespace std;
 
 int main() {
-    //    Substitue a subclass instance to a superclass reference
+    //    Substitue a subclass instance to a superclass
+    // reference
 
     // using object pointer
     Point *ptrP1 = new MovablePoint(11, 12, 13, 14); // upcast
