@@ -11,7 +11,7 @@ class Circle : public Shape {
 private:
     int radius;
 public:
-    Circle(const string &color, int radius);
+    Circle(int radius =1, const std::string & color = "red");
 
     int getRadius() const;
 
@@ -21,6 +21,7 @@ public:
 
     virtual double getArea() const;
 
+    virtual ~Circle();
 
 };
 

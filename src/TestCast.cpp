@@ -19,6 +19,6 @@ int main() {
 //    Downcast requires explicit casting operator
 
 //Operator dynamic_cast which return a null pointer if the type cast fail.
-    MovablePoint *ptrMP1 = dynamic_cast<MovablePoint *> (ptrP1);
+    // MovablePoint *ptrMP1 = dynamic_cast<MovablePoint *> (ptrP1);
     delete ptrP1;
 }

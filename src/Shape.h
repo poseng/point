@@ -11,7 +11,9 @@ class Shape {
 private:
     std::string color {"red"};
 public:
-    Shape(const std::string &color);
+    Shape(const std::string &color = "red");
+
+    virtual ~Shape();
 
     std::string getColor() const;
 
